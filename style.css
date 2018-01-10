@@ -8,10 +8,11 @@ body {
 
 /* Global */
 .container{
-    width:99%;
+    width:90%;
     margin: auto;
     overflow: hidden;
 }
+
 
 ul{
     margin:0;
