@@ -201,6 +201,20 @@ header li{
     width: 65%;
 }
 
+#boxes2 .box2{
+    text-align:center;
+    width:27%;
+    padding: 3%;
+    
+}
+
+#boxes2 .box2 img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
 
 /*sidebar*/
 aside#sidebar{
