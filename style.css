@@ -202,17 +202,15 @@ header li{
 }
 
 #boxes2 .box2{
+    float:left;
     text-align:center;
     width:27%;
-    padding: 3%;
+    padding:3%;
     
 }
 
 #boxes2 .box2 img{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    width:90%;
 }
 
 
