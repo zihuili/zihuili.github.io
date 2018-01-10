@@ -40,7 +40,53 @@
                 <h1 class="shadow1">To Receive Updates On The Animals...</h1>
                 <form>
                     <input type="email" placeholder="Enter Email.">
-                    <button type="submit" class= "button_1">Enter</button>
+                    <head>
+                    <style>
+                        .button {
+                              border-radius: 5%;
+                              background-color: #339966;
+                              border: none;
+                              color: #ffffff;
+                              text-align: center;
+                              font-size: 120%;
+                              padding: 3%;
+                              width: 30%;
+                              transition: all 0.5s;
+                              cursor: pointer;
+                              margin: 5%;
+                             
+                            }
+                            
+                            .button span {
+                              cursor: pointer;
+                              display: inline-block;
+                              position: relative;
+                              transition: 0.5s;
+                            }
+                            
+                            .button span:after {
+                              content: '\00bb';
+                              position: absolute;
+                              opacity: 0;
+                              top: 0;
+                              right: -15%;
+                              transition: 0.5s;
+                            }
+                            
+                            .button:hover span {
+                              padding-right: 20%;
+                            }
+                            
+                            .button:hover span:after {
+                              opacity: 1;
+                              right: 0;
+                            }
+                            </style>
+                            </head>
+                            <body>
+                            <button class="button"><span> Enter </span></button>
+                            </body>
+
                 </form>
             </div>
         </section>

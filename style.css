@@ -188,6 +188,7 @@ header li{
 
 #boxes .box img{
     width: 65%;
+    border-radius: 50%;
 }
 
 #boxes1 .box1{
